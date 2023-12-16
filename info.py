@@ -55,7 +55,7 @@ IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'tnshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '0c8ebd63bfe9f67f9970b8767498ff60316b9b03')
+SHORTLINK_API = environ.get('SHORTLINK_API', '811e36e9822b8c445582837748258bc00f7c6117')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
